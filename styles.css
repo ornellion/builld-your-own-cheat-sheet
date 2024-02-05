@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 10%, 96%);
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+
+h1 {
+    color: hsl(60, 15%, 12%);
+}
+
+p {
+    color: hsl(87, 12%, 29%);
+}
+
+code {
+    font-family: 'PT Mono', monospace;
+    font-size: 15px;
+    background-color:  hsl(293, 11%, 44%);
+    color: hsl(240, 10%, 96%);
+}
+
+table {
+    border: 1px solid #14213d;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: hsl(87, 12%, 29%);
+    color: hsl(240, 10%, 96%);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.2em;
+    text-align: center;
+}
+
+
+tbody tr:hover {
+    background-color: hsl(35, 100%, 88%);
+}
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block; 
+    color: hsl(87, 12%, 29%);
+}
+
+footer a {
+    color: hsl(87, 12%, 29%);
+}
+
+footer a:hover {
+    color: hsl(293, 11%, 44%);
+}

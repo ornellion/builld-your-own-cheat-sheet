@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet: Semantic HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Semantic HTML Elements Cheat Sheet</h1>
+        <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+        <p>Writing semantic markup is important for SEO, helping screen readers to signpost for visually impaired users and makes code easier to navigate.</p>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Element Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Example Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><code>&lt;article&gt;</code></th>
+                    <td>Article Contents</td>
+                    <td>Specifies independent, self-contained content that should make sense on its own and can be distributed independently. A given document can have multiple articles.</td>
+                    <td>e.g. forum post, magazine article, blog entry, user comments</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;aside&gt;</code></th>
+                    <td>Aside</td>
+                    <td>Represents a portion of a document whose content is only indirectly related to the document’s main content.</td>
+                    <td>e.g. sidebars or call-out boxes</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;details&gt;</code></th>
+                    <td>Details disclosure</td>
+                    <td>Creates a disclosure widget in which information is only visible when the widget is toggled into an “open” state. A summary or label must be provided using the &lt;summary&gt; element.</td>
+                    <td>The contents of the &lt;summary&gt; element are used as the label for the disclosure widget.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;summary&gt;</code></th>
+                    <td>Disclosure Summary</td>
+                    <td>Specifies a summary, caption or legend for a &lt;details&gt; element’s disclosure box. Clicking the &lt;summary&gt; element toggles the state of the parent &lt;details&gt; element open and closed.</td>
+                    <td>A &lt;summary&gt; element may only be used as the first child of a &lt;details&gt; element.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;figure&gt;</code></th>
+                    <td>The Figure (with Optional Caption)</td>
+                    <td>Represents self-contained content with an option caption. The figure, its caption, and its contents are referenced as a single unit.</td>
+                    <td>e.g. an image, illustration, diagram, code snippet. It can be usually be moved to another part of the document without affecting the main flow.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;figcaption&gt;</code></th>
+                    <td>Figure Caption</td>
+                    <td>Represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element.</td>
+                    <td>Defines a caption for the &lt;figure&gt; element.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;footer&gt;</code></th>
+                    <td>Footer</td>
+                    <td>Represents a footer for a document or section. You can have several &lt;footer&gt; elements in one document.</td>
+                    <td>Typically contains information about the author of the section, copyright data or links to related documents.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>>&lt;form&gt;</code</th>
+                    <td>Form</td>
+                    <td>Represents a document section containing interactive controls for submitting information.</td>
+                    <td>Used to collect user input.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;header&gt;</code></th>
+                    <td>Header</td>
+                    <td>Represents introductory content, typically a group of introductory or navigational links.</td>
+                    <td>May contain some heading elements but also a logo, a search form, an author name and other elements. Can define a global site header described as a banner located at the top of the page.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;main&gt;</code></th>
+                    <td>Main</td>
+                    <td>Represents the dominant content of the &lt;body&gt; of a documents.</td>
+                    <td>The content should be unique to the document. It doesn’t contribute to the document’s outline - it’s strictly informative.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;nav&gt;</code></th>
+                    <td>Navigation Section</td>
+                    <td>Represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</td>
+                    <td>e.g. menus, tables of contents, indexes.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;section&gt;</code></th>
+                    <td>Generic Section</td>
+                    <td>Represents a generic standalone of document, which doesn’t have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+                    <td>e.g. Chapters, introductions, news items, contact information.</td>
+                </tr>
+                <tr>
+                    <th scope="row"><code>&lt;time&gt;</code></th>
+                    <td>(Date) Time</td>
+                    <td>Represents a specific period in time. May include the datetime attribute to translate dates into machine-readable format.</td>
+                    <td>For presenting dates and times in a machine-readable format such as a time on a 24-hour clock, a precise date in the Gregorian calendar or a valid time duration.</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>
+            <p>References:</p>
+            <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">MDN Web Docs</a></p> 
+            <p><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools</a></p>
+        </footer>
+    </main>
+    
+</body>
+</html>
